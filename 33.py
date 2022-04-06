@@ -1,6 +1,3 @@
-from operator import index
-
-
 total=0
 num=[]
 item=['國文','英文','微積分','體育','程式設計']
