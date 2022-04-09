@@ -1,7 +1,3 @@
-from __future__ import print_function
-from tabnanny import check
-
-
 while True:
     voc=input("檢測字元")
     list1=list(voc)
