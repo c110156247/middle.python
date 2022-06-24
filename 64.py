@@ -6,12 +6,12 @@ if n1-n2 ==2 or n2-n1 ==2:
         for i in range(1,n1+1):
             if n1%i==0:
                 n1_list.append(i)
-        n1_count=int(len(n1_list))        
+        #n1_count=int(len(n1_list))        
         for j in range(1,n2+1):
             if n2%j==0:
                 n2_list.append(j)
-        n2_count=int(len(n2_list)) 
-        if n1_count==n2_count:
+        #n2_count=int(len(n2_list)) 
+        if len(n1_list)==len(n2_list):
             print('Y')
         else:
             print('N')                 
